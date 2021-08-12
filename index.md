@@ -1,37 +1,81 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+#kids{
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
 
-You can use the [editor on GitHub](https://github.com/Azz14/Azz14.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
+#kids td, #kids th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+#kids tr:nth-child(even){background-color: #f2f2f2;}
 
-### Markdown
+#kids tr:hover {background-color: #ddd;}
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+#kids th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color:  #e60073;
+  color: white;
+}
+</style>
+</head>
+<body>
 
-```markdown
-Syntax highlighted code block
+<table id="kids">
+  <tr>
+    <th>Children</th>
+    <th>Favorite Candy</th>
+    <th>Favorite Fruit</th>
+  </tr>
+  <tr>
+    <td>James</td>
+    <td>Nerds</td>
+    <td>Bananas</td>
+  </tr>
+  <tr>
+    <td>Samantha</td>
+    <td>Jolly Ranchers</td>
+    <td>Apples</td>
+  </tr>
+  <tr>
+    <td>Richard</td>
+    <td>Sour Patch Kids</td>
+    <td>Grapes</td>
+  </tr>
+  <tr>
+    <td>Glen</td>
+    <td>Hershey's</td>
+    <td>Strawberries</td>
+  </tr>
+  <tr>
+    <td>Amy</td>
+    <td>Reeses</td>
+    <td>Watermelon</td>
+  </tr>
+  <tr>
+    <td>Cooper</td>
+    <td>Twizzlers</td>
+    <td>Oranges</td>
+  </tr>
+ 
+</table>
+<p>
+    <a href="http://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="http://jigsaw.w3.org/css-validator/images/vcss"
+            alt="Valid CSS!" />
+    </a>
+</p>
+            
 
-# Header 1
-## Header 2
-### Header 3
+</body>
+</html>
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Azz14/Azz14.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
